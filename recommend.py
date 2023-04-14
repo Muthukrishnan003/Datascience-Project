@@ -1,11 +1,6 @@
 import streamlit as st
 
-if uploaded_file is not None:
-    data = pd.read_csv(uploaded_file)
 
-    # Add a dropdown menu to select a column to plot
-    x_axis = st.selectbox("Select a column to plot on the x-axis", data.columns)
-    y_axis = st.selectbox("Select a column to plot on the y-axis", data.columns)
 
 def recommend():   
     
